@@ -31,13 +31,13 @@
                         label = "NUMBER";
 // -----------------------------------------------------------------------------------------
 // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-// | CTRL |     | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |  ;  | RET  |
-// | SHFT |     |     |     |     |     |   |     |     |  ,  |  .  |  /  |   '  |
-//                    | GUI |     | SPC |   | MO2 | RWIN|     |
+// | CTRL |     |     |  =  |  [  |  ]  |   | LFT | DWN |  UP | RGT |  ;  | RET  |
+// | SHFT |     |     |  -  |  \  |  `  |   |     |     |  ,  |  .  |  /  |   '  |
+//                    |     |     | SPC |   | MO2 | RWIN|     |
                         bindings = <
    &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8    &kp N9     &kp N0   &kp BSPC
-   &kp LCTRL  &trans       &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP    &kp RIGHT  &kp SEMI &kp RET
-   &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &kp COMMA &kp DOT    &kp FSLH &kp SQT
+   &kp LCTRL  &trans       &trans       &kp EQUAL    &kp LBKT     &kp RBKT       &kp LEFT &kp DOWN &kp UP    &kp RIGHT  &kp SEMI &kp RET
+   &kp LSHFT  &trans       &trans       &kp MINUS    &kp BSLH     &kp GRAVE      &trans   &trans   &kp COMMA &kp DOT    &kp FSLH &kp SQT
                           	        &trans       &trans       &kp SPACE      &mo 2    &kp LGUI   &trans
                         >;
                 };
